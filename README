@@ -1,0 +1,14 @@
+Steps!
+
+Create a WordPress site.
+
+Let's say we have a project called "domain.tld".
+We're going to create this project using WordPress.
+Then we shall create a custom theme called "mytheme".
+
+# Get the code
+> git clone https://github.com/Wordpress/Wordpress domain.tld
+> cd domain.tld
+
+# Add the theme base code.
+> git submodule add https://grok@bitbucket.org/noblestudios/codebase-wordpress-themes.git wp-content/themes/mytheme
