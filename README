@@ -12,3 +12,7 @@ Then we shall create a custom theme called "mytheme".
 
 # Add the theme base code.
 > git submodule add https://grok@bitbucket.org/noblestudios/codebase-wordpress-themes.git wp-content/themes/mytheme
+> cd wp-content/themes/mytheme
+
+# Get the code!
+> git pull
