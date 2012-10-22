@@ -56,11 +56,10 @@ final class Theme {
 		return $stylesheets;
 	}
 
-	// TODO: Figure out how to use the net_path URL rather than including the protocol.
 	private function _get_scripts() {
 		$scripts = (object) array(
 					'modernizr' => (object) array(
-						'source' => 'http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js',
+						'source' => '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js',
 						'dependencies' => false,
 						'version' => 'v2.6.2',
 						'in_footer' => false
@@ -76,7 +75,7 @@ final class Theme {
 						'dependencies' => array('jquery'),
 						'version' => 'v2.1.1',
 						'in_footer' => true
-					),
+					)
 		);
 		return $scripts;
 	}
