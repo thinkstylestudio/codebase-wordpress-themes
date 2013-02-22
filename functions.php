@@ -96,7 +96,7 @@ final class Theme {
 	public function register_scripts() {
 		$scripts = $this->_get_scripts();
 		foreach ($scripts as $handle => $data) {
-			wp_register_script(handle, $data->source, $data->dependencies, $data->version, $data->in_footer);
+			wp_register_script($handle, $data->source, $data->dependencies, $data->version, $data->in_footer);
 		}
 	}
 
