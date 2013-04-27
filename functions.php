@@ -93,3 +93,6 @@ final class Theme {
 
 $theme = new Theme();
 $theme->run();
+
+/* End of file functions.php */
+/* Location: ./wp-content/themes/%THEMEFOLDER%/functions.php */

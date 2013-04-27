@@ -2,28 +2,6 @@ Steps!
 
 Create a WordPress site.
 
-Let's say we have a project called "domain.tld".
-We're going to create this project using WordPress.
-Then we shall create a custom theme called "mytheme".
+Fork it and go!
 
-# Get the code
-> git clone https://github.com/Wordpress/Wordpress domain.tld
-> cd domain.tld
-
-# Add the theme base code.
-> git submodule add https://grok@bitbucket.org/noblestudios/codebase-wordpress-themes.git wp-content/themes/mytheme
-> cd wp-content/themes/mytheme
-
-# Get the code!
-> git pull
-
-# Now we have the foundations. Let's turn it into our own theme.
-1. Edit style.css and change the theme name and other File Headers to be inline with your  new theme.
-2. Edit functions.php and either add or remove css/javascript libraries as needed. Also if >= 5.4 you can enable the namespace line which will help resolve potential code conflicts.
-
-# After you've altered the base to be what you need to start developing your new theme - do the following:
-> git checkout -b mytheme
-> git add .
-> git commit -m "Your awesome commit talking about why you changed stuff."
-> git remote add mynewremote mygitrepopath
-> git push mynewremote
+If you've never forked, just clone it and then change the remote to your repository location and push.
